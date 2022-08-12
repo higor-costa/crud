@@ -18,3 +18,8 @@ body {
 button, .modal-close {
     cursor: pointer;
 }
+
+main {
+    width: 90%;
+    height: 80%;
+}
