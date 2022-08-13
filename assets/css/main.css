@@ -52,6 +52,7 @@ header .botao {
 table {
     width: 100%;
     border-spacing: 10px;
+    border-collapse: collapse;
 }
 
 table thead {
