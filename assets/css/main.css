@@ -56,3 +56,7 @@ table {
 table thead {
     background-color: whitesmoke;
 } 
+
+tbody tr td {
+    padding: 6px;
+}
