@@ -116,6 +116,10 @@ form button {
     width: 40%;
 }
 
+form button:first-child {
+    background: rgb(57, 57, 226);
+}
+
 form footer {
     display: flex;
     justify-content: space-evenly;
