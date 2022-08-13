@@ -121,6 +121,10 @@ form button:first-child {
     border: none;
 }
 
+form button:last-child {
+    background: white;
+}
+
 form footer {
     display: flex;
     justify-content: space-evenly;
