@@ -115,3 +115,8 @@ form button {
     border: none;
     width: 40%;
 }
+
+form footer {
+    display: flex;
+    justify-content: space-evenly;
+}
