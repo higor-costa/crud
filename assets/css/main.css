@@ -102,3 +102,7 @@ form input {
     border-left: none;
     border-right: none;
 }
+
+form button {
+    padding: 5px 10px;
+}
