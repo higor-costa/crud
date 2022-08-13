@@ -118,6 +118,7 @@ form button {
 form button:first-child {
     background: rgb(57, 57, 226);
     color: white;
+    border: none;
 }
 
 form footer {
