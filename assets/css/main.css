@@ -113,6 +113,7 @@ form button {
     padding: 5px 10px;
     border-radius: 20px;
     width: 40%;
+    transition: .5s;
 }
 
 form button:first-child {
