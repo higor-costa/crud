@@ -36,4 +36,5 @@ main > header {
 
 header .header__titulo {
     font-weight: 700;
+    font-size: 20px;
 }
