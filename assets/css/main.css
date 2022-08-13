@@ -65,3 +65,8 @@ tbody tr td {
     padding: 6px;
     width: 50px;
 }
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+}
