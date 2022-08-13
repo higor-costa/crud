@@ -98,4 +98,7 @@ form input {
     outline: none;
     padding: 5px 10px;
     margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
