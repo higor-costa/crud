@@ -33,3 +33,7 @@ main > header {
     align-items: center;
     justify-content: space-between;
 }
+
+header .header__titulo {
+    font-weight: 700;
+}
