@@ -91,6 +91,7 @@ tbody tr td {
 
 .modal-content .modal-header {
     color: rgb(57, 57, 226);
+    margin-bottom: 20px;
 }
 
 form label {
