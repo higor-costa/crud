@@ -123,6 +123,7 @@ form button:first-child {
 
 form button:last-child {
     background: white;
+    border: 1px solid;
 }
 
 form footer {
