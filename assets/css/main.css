@@ -22,4 +22,5 @@ button, .modal-close {
 main {
     width: 90%;
     height: 80%;
+    border-radius: 10px;
 }
