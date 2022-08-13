@@ -128,6 +128,10 @@ form button:first-child:hover {
     border: 1px solid;
 }
 
+form button:last-child:hover {
+    color: rgb(57, 57, 226);
+}
+
 form button:last-child {
     background: white;
     border: 1px solid;
