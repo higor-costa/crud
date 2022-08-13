@@ -77,3 +77,7 @@ tbody tr td {
     align-items: center;
     justify-content: center;
 }
+
+.modal-content {
+    width: 50%;
+}
