@@ -47,3 +47,7 @@ header .botao {
     color: white;
     background-color: rgb(57, 57, 226);
 }
+
+table {
+    width: 100%;
+}
