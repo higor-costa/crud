@@ -122,6 +122,12 @@ form button:first-child {
     border: none;
 }
 
+form button:first-child:hover {
+    background: white;
+    color: rgb(57, 57, 226);
+    border: 1px solid;
+}
+
 form button:last-child {
     background: white;
     border: 1px solid;
