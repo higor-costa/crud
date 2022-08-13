@@ -89,6 +89,10 @@ tbody tr td {
     border-radius: 10px;
 }
 
+.modal-content .modal-header {
+    color: rgb(57, 57, 226);
+}
+
 form label {
     font-size: 14px;
     width: 100%;
