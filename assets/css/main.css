@@ -26,3 +26,7 @@ main {
     border-radius: 10px;
     background-color: white;
 }
+
+main > header {
+    min-height: 70px;
+}
