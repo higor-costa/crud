@@ -42,4 +42,5 @@ header .header__titulo {
 header .botao {
     font-size: 15px;
     padding: 8px;
+    border-radius: 5px;
 }
