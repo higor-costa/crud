@@ -38,3 +38,7 @@ header .header__titulo {
     font-weight: 700;
     font-size: 20px;
 }
+
+header .botao {
+    font-size: 15px;
+}
