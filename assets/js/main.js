@@ -16,7 +16,7 @@ const getLocalStorage = () => JSON.parse(localStorage.getItem("dbCadastro")) ?? 
 const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.stringify(dbCadastro))
 
 const deletaFuncionario = (index) => {
-    
+    const dbCadastro = lerFuncionario()
 }
 
 const atualizaFuncionario = (index, novoFuncionario) => {
