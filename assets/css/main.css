@@ -78,6 +78,7 @@ tbody tr td > button {
     border: none;
     background: transparent;
     color: rgb(57, 57, 226);
+    font-size: 1.2rem;
 }
 
 .modal {
