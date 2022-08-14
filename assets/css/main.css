@@ -95,7 +95,7 @@ tbody tr td > button {
 }
 
 .modal-content {
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
