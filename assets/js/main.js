@@ -40,3 +40,6 @@ document.querySelector('#cadastrarCliente')
 
 document.querySelector('#cancelar')
     .addEventListener('click', fecharModal)
+
+document.querySelector('#salvar')
+    .addEventListener('click', salvarFuncionario)    
