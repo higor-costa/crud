@@ -5,3 +5,6 @@ const abrirModal = () => document.querySelector('#modal')
 
 const fecharModal = () => document.querySelector('#modal')
     .style.display = 'none';
+
+document.querySelector('#cadastrarCliente')
+    .addEventListener('click', abrirModal)
