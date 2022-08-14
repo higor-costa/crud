@@ -17,10 +17,7 @@ const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.
 
 const criarFuncionario = (novoFuncionario) => {
     const dbCadastro = getLocalStorage()
-}
-
-const criarFuncionario = (novoFuncionario) => {
-    
+    dbCadastro.push(novoFuncionario)
 }
 
 document.querySelector('#cadastrarCliente')
