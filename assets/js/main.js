@@ -16,6 +16,10 @@ const getLocalStorage = () => JSON.parse(localStorage.getItem("dbCadastro")) ?? 
 const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.stringify(dbCadastro))
 
 const criarFuncionario = (novoFuncionario) => {
+    const dbCadastro = getLocalStorage()
+}
+
+const criarFuncionario = (novoFuncionario) => {
     
 }
 
