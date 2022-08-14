@@ -17,6 +17,7 @@ const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.
 
 const atualizaFuncionario = (index, novoFuncionario) => {
     const dbCadastro = lerFuncionario()
+    dbCadastro[index] = novoFuncionario
 }
 
 const lerFuncionario = () => getLocalStorage()
