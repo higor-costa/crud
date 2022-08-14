@@ -35,6 +35,10 @@ const criarFuncionario = (novoFuncionario) => {
     setLocalStorage(dbCadastro)
 }
 
+const camposValidos = () => {
+    return document.querySelector('#form').reportValidity()
+}
+
 const salvarFuncionario = () => {
     
 }
