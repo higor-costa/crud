@@ -18,6 +18,7 @@ const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.
 const deletaFuncionario = (index) => {
     const dbCadastro = lerFuncionario()
     dbCadastro.splice(index, 1)
+    setLocalStorage(dbCadastro)
 }
 
 const atualizaFuncionario = (index, novoFuncionario) => {
