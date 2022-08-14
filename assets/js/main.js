@@ -40,7 +40,8 @@ const camposValidos = () => {
 }
 
 const salvarFuncionario = () => {
-    
+    if (camposValidos()) {
+    }
 }
 
 document.querySelector('#cadastrarCliente')
