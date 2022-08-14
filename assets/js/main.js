@@ -12,6 +12,8 @@ const funcionario = {
     salario: 'R$ 2500,00'
 }
 
+const getLocalStorage = () => JSON.parse(localStorage.getItem("dbCadastro")) ?? []
+
 document.querySelector('#cadastrarCliente')
     .addEventListener('click', abrirModal)
 
