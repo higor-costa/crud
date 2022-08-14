@@ -15,6 +15,10 @@ const funcionario = {
 const getLocalStorage = () => JSON.parse(localStorage.getItem("dbCadastro")) ?? []
 const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.stringify(dbCadastro))
 
+const criarFuncionario = (novoFuncionario) => {
+    
+}
+
 document.querySelector('#cadastrarCliente')
     .addEventListener('click', abrirModal)
 
