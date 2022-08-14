@@ -46,4 +46,7 @@ document.querySelector('#cancelar')
     .addEventListener('click', fecharModal)
 
 document.querySelector('#salvar')
-    .addEventListener('click', salvarFuncionario)    
+    .addEventListener('click', e => {
+        e.preventDefault()
+        salvarFuncionario()
+    })    
