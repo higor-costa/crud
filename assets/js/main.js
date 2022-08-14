@@ -43,7 +43,10 @@ document.querySelector('#cadastrarCliente')
     .addEventListener('click', abrirModal)
 
 document.querySelector('#cancelar')
-    .addEventListener('click', fecharModal)
+    .addEventListener('click', e => {
+        e.preventDefault()
+        fecharModal()
+    })
 
 document.querySelector('#salvar')
     .addEventListener('click', e => {
