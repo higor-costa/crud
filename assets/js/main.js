@@ -8,3 +8,6 @@ const fecharModal = () => document.querySelector('#modal')
 
 document.querySelector('#cadastrarCliente')
     .addEventListener('click', abrirModal)
+
+document.querySelector('#cancelar')
+    .addEventListener('click', fecharModal)
