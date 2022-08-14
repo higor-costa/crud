@@ -47,6 +47,7 @@ const salvarFuncionario = () => {
             salario: document.querySelector('#nome').value
         }
         criarFuncionario(funcionario)
+        fecharModal()
     }
 }
 
