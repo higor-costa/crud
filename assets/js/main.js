@@ -6,6 +6,12 @@ const abrirModal = () => document.querySelector('#modal')
 const fecharModal = () => document.querySelector('#modal')
     .style.display = 'none';
 
+const funcionario = {
+    nome: 'Higor Costa',
+    funcao: 'Desenvolvedor Web',
+    salario: 'R$ 2500,00'
+}
+
 document.querySelector('#cadastrarCliente')
     .addEventListener('click', abrirModal)
 
