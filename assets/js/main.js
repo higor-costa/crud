@@ -15,6 +15,8 @@ const funcionario = {
 const getLocalStorage = () => JSON.parse(localStorage.getItem("dbCadastro")) ?? []
 const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.stringify(dbCadastro))
 
+const lerFuncionario = () => getLocalStorage()
+
 const criarFuncionario = (novoFuncionario) => {
     const dbCadastro = getLocalStorage()
     dbCadastro.push(novoFuncionario)
