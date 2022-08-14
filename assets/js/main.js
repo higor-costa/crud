@@ -46,6 +46,7 @@ const salvarFuncionario = () => {
             funcao: document.querySelector('#nome').value,
             salario: document.querySelector('#nome').value
         }
+        criarFuncionario(funcionario)
     }
 }
 
