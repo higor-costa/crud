@@ -62,7 +62,6 @@ table thead {
 
 thead tr th {
     padding: 5px;
-    text-align: start;
 }
 
 thead tr th:nth-child(4),
