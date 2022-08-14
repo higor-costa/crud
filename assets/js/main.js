@@ -35,6 +35,10 @@ const criarFuncionario = (novoFuncionario) => {
     setLocalStorage(dbCadastro)
 }
 
+const salvarFuncionario = () => {
+    
+}
+
 document.querySelector('#cadastrarCliente')
     .addEventListener('click', abrirModal)
 
