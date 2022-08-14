@@ -41,6 +41,11 @@ const camposValidos = () => {
 
 const salvarFuncionario = () => {
     if (camposValidos()) {
+        const funcionario = {
+            nome: document.querySelector('#nome').value,
+            funcao: document.querySelector('#nome').value,
+            salario: document.querySelector('#nome').value
+        }
     }
 }
 
