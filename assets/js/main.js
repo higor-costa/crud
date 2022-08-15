@@ -63,6 +63,7 @@ document.querySelector('#cadastrarCliente')
 document.querySelector('#cancelar')
     .addEventListener('click', e => {
         e.preventDefault()
+        limpaCampos()
         fecharModal()
     })
 
