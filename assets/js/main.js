@@ -41,6 +41,7 @@ const camposValidos = () => {
 
 const limpaCampos = () => {
     const campos = document.querySelectorAll('.campo')
+    campos.forEach(campo => campo.value = '')
 }
 
 const salvarFuncionario = () => {
