@@ -48,8 +48,8 @@ const salvarFuncionario = () => {
     if (camposValidos()) {
         const funcionario = {
             nome: document.querySelector('#nome').value,
-            funcao: document.querySelector('#nome').value,
-            salario: document.querySelector('#nome').value
+            funcao: document.querySelector('#funcao').value,
+            salario: document.querySelector('#salario').value
         }
         criarFuncionario(funcionario)
         limpaCampos()
