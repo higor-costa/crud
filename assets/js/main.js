@@ -39,6 +39,10 @@ const camposValidos = () => {
     return document.querySelector('#form').reportValidity()
 }
 
+const limpaCampos = () => {
+    
+}
+
 const salvarFuncionario = () => {
     if (camposValidos()) {
         const funcionario = {
