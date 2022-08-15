@@ -40,7 +40,7 @@ const camposValidos = () => {
 }
 
 const limpaCampos = () => {
-    
+    const campos = document.querySelectorAll('.campo')
 }
 
 const salvarFuncionario = () => {
