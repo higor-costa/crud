@@ -58,7 +58,7 @@ const salvarFuncionario = () => {
 }
 
 const criarLinha = (funcionario) => {
-    
+    const novaLinha = document.createElement('tr')
 }
 
 const updateTable = () => {
