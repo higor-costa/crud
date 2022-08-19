@@ -57,6 +57,10 @@ const salvarFuncionario = () => {
     }
 }
 
+const updateTable = () => {
+    
+}
+
 updateTable()
 
 document.querySelector('#cadastrarCliente')
