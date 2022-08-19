@@ -57,6 +57,10 @@ const salvarFuncionario = () => {
     }
 }
 
+const criarLinha = (funcionario) => {
+    
+}
+
 const updateTable = () => {
     const dbCadastro = lerFuncionario()
     dbCadastro.forEach(criarLinha)
