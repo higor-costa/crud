@@ -59,6 +59,22 @@ const salvarFuncionario = () => {
 
 const criarLinha = (funcionario) => {
     const novaLinha = document.createElement('tr')
+    novaLinha.innerHTML = `
+        <td>${funcionario.nome}</td>
+        <td>${funcionario.funcao}</td>
+        <td>R$ ${funcionario.salario}</td>
+
+        <td>
+            <button type="button" class="acao">
+                <i class="fa-solid fa-user-pen"></i>
+            </button>
+        </td>
+        <td>
+            <button type="button" class="acao">
+                <i class="fa-solid fa-trash-can"></i>
+            </button>
+        </td>
+    `    
 }
 
 const updateTable = () => {
