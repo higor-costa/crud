@@ -84,6 +84,7 @@ const limpaTabela = () => {
 
 const updateTable = () => {
     const dbCadastro = lerFuncionario()
+    limpaTabela()
     dbCadastro.forEach(criarLinha)
 }
 
