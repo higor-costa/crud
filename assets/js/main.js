@@ -78,6 +78,10 @@ const criarLinha = (funcionario) => {
     document.querySelector('#tableClient>tbody').appendChild(novaLinha)
 }
 
+const limpaTabela = () => {
+    
+}
+
 const updateTable = () => {
     const dbCadastro = lerFuncionario()
     dbCadastro.forEach(criarLinha)
