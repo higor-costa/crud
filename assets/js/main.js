@@ -57,6 +57,8 @@ const salvarFuncionario = () => {
     }
 }
 
+updateTable()
+
 document.querySelector('#cadastrarCliente')
     .addEventListener('click', abrirModal)
 
