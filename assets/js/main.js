@@ -79,7 +79,7 @@ const criarLinha = (funcionario) => {
 }
 
 const limpaTabela = () => {
-    
+    const linhas = document.querySelectorAll('tbody > tr')
 }
 
 const updateTable = () => {
