@@ -75,6 +75,7 @@ const criarLinha = (funcionario) => {
             </button>
         </td>
     `    
+    document.querySelector('#tableClient>tbody').appendChild(novaLinha)
 }
 
 const updateTable = () => {
