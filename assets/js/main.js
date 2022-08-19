@@ -80,6 +80,7 @@ const criarLinha = (funcionario) => {
 
 const limpaTabela = () => {
     const linhas = document.querySelectorAll('tbody > tr')
+    linhas.forEach(linha => linha.parentNode.removeChild(linha))
 }
 
 const updateTable = () => {
