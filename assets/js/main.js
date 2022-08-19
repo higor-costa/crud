@@ -58,7 +58,7 @@ const salvarFuncionario = () => {
 }
 
 const updateTable = () => {
-    
+    const dbCadastro = lerFuncionario()
 }
 
 updateTable()
