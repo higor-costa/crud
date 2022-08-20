@@ -84,7 +84,7 @@ const updateTable = () => {
     dbCadastro.forEach(criarLinha)
 }
 
-const editaFuncionario = () => {
+const editaFuncionario = (index) => {
 }
 
 const editaDeleta = (event) => {
