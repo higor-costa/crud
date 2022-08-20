@@ -57,7 +57,7 @@ const salvarFuncionario = () => {
     }
 }
 
-const criarLinha = (funcionario) => {
+const criarLinha = (funcionario, index) => {
     const novaLinha = document.createElement('tr')
     novaLinha.innerHTML = `
         <td>${funcionario.nome}</td>
