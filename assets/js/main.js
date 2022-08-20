@@ -106,3 +106,6 @@ document.querySelector('#salvar')
         e.preventDefault()
         salvarFuncionario()
     })    
+
+document.querySelector('#tableClient>tbody') 
+    .addEventListener('click', editaDeleta)
