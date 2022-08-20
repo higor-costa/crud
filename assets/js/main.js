@@ -89,7 +89,7 @@ const editaDeleta = (event) => {
         const [acao, index] = event.target.id.split('-')
 
         if (acao == 'edita') {
-            editaFuncionario()
+            editaFuncionario(index)
         }
     }
 }
