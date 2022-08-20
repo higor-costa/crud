@@ -90,7 +90,8 @@ const updateTable = () => {
 }
 
 const editaDeleta = (event) => {
-    
+    if (event.target.localName == "i") { 
+    }
 }
 
 updateTable()
