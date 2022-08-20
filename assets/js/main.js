@@ -61,12 +61,12 @@ const criarLinha = (funcionario, index) => {
 
         <td>
             <button type="button" class="acao">
-                <i class="fa-solid fa-user-pen"></i>
+                <i class="fa-solid fa-user-pen" id="edita-${index}"></i>
             </button>
         </td>
         <td>
             <button type="button" class="acao">
-                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-trash-can" id="deleta-${index}"></i>
             </button>
         </td>
     `    
