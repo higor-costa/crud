@@ -89,7 +89,7 @@ const updateTable = () => {
     dbCadastro.forEach(criarLinha)
 }
 
-const editaDeleta = () => {
+const editaDeleta = (event) => {
     
 }
 
