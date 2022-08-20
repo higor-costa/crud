@@ -93,6 +93,7 @@ const preencheCampos = (funcionario) => {
 const editaFuncionario = (index) => {
     const funcionario = lerFuncionario()[index]
     preencheCampos(funcionario)
+    abrirModal()
 }
 
 const editaDeleta = (event) => {
