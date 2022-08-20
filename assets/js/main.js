@@ -85,7 +85,9 @@ const updateTable = () => {
 }
 
 const preencheCampos = (funcionario) => {
-
+    document.querySelector('#nome').value = funcionario.nome
+    document.querySelector('#funcao').value = funcionario.funcao
+    document.querySelector('#salario').value = funcionario.salario
 }
 
 const editaFuncionario = (index) => {
