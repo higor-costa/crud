@@ -89,6 +89,10 @@ const updateTable = () => {
     dbCadastro.forEach(criarLinha)
 }
 
+const editaDeleta = () => {
+    
+}
+
 updateTable()
 
 document.querySelector('#cadastrarCliente')
