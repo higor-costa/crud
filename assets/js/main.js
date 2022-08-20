@@ -87,6 +87,10 @@ const updateTable = () => {
 const editaDeleta = (event) => {
     if (event.target.localName == "i") { 
         const [acao, index] = event.target.id.split('-')
+
+        if (acao == 'edita') {
+            editaFuncionario()
+        }
     }
 }
 
