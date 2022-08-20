@@ -53,6 +53,7 @@ const salvarFuncionario = () => {
         }
         criarFuncionario(funcionario)
         limpaCampos()
+        updateTable()
         fecharModal()
     }
 }
