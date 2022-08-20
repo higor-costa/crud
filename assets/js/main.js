@@ -86,7 +86,7 @@ const updateTable = () => {
 
 const editaFuncionario = (index) => {
     const funcionario = lerFuncionario()[index]
-    preencheCampos()
+    preencheCampos(funcionario)
 }
 
 const editaDeleta = (event) => {
