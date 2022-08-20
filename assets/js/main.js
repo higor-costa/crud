@@ -84,6 +84,9 @@ const updateTable = () => {
     dbCadastro.forEach(criarLinha)
 }
 
+const editaFuncionario = () => {
+}
+
 const editaDeleta = (event) => {
     if (event.target.localName == "i") { 
         const [acao, index] = event.target.id.split('-')
