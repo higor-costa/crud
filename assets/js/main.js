@@ -84,6 +84,10 @@ const updateTable = () => {
     dbCadastro.forEach(criarLinha)
 }
 
+const preencheCampos = () => {
+
+}
+
 const editaFuncionario = (index) => {
     const funcionario = lerFuncionario()[index]
     preencheCampos(funcionario)
