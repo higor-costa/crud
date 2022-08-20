@@ -45,6 +45,8 @@ const salvarFuncionario = () => {
             funcao: document.querySelector('#funcao').value,
             salario: document.querySelector('#salario').value
         }
+        
+        const index = document.querySelector('#nome').dataset.index
         criarFuncionario(funcionario)
         limpaCampos()
         updateTable()
