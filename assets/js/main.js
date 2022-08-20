@@ -84,7 +84,7 @@ const updateTable = () => {
     dbCadastro.forEach(criarLinha)
 }
 
-const preencheCampos = () => {
+const preencheCampos = (funcionario) => {
 
 }
 
