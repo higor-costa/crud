@@ -85,6 +85,7 @@ const updateTable = () => {
 }
 
 const editaFuncionario = (index) => {
+    const funcionario = lerFuncionario()[index]
 }
 
 const editaDeleta = (event) => {
