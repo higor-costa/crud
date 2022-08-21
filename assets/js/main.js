@@ -3,8 +3,11 @@
 const abrirModal = () => document.querySelector('#modal')
     .style.display = 'flex';
 
-const fecharModal = () => document.querySelector('#modal')
-    .style.display = 'none';
+const fecharModal = () => {
+    limpaCampos()
+    document.querySelector('#modal').style.display = 'none';
+}
+
 
 const getLocalStorage = () => JSON.parse(localStorage.getItem("dbCadastro")) ?? []
 const setLocalStorage = (dbCadastro) => localStorage.setItem("dbCadastro", JSON.stringify(dbCadastro))
