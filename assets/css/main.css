@@ -163,7 +163,7 @@ form footer {
     }
 }
 
-@media screen and (max-width: 696px) and (min-width: 607px) {
+@media screen and (max-width: 696px) and (min-width: 539px) {
     thead tr th {
         font-size: .8rem;
     }
