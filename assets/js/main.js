@@ -118,6 +118,8 @@ const editaDeleta = (event) => {
         }
         else {
             const funcionario = lerFuncionario()[index]
+            const resposta = confirm(`Deletar ${funcionario.nome}?`)
+            const resposta = confirm(`Deletar ${funcionario.nome}?`)
         }
     }
 }
