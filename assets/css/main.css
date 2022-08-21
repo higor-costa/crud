@@ -162,3 +162,7 @@ form footer {
         width: 50%;
     }
 }
+
+@media screen and (max-width: 696px) and (min-width: 632px) {
+    
+}
