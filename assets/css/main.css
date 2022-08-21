@@ -167,4 +167,8 @@ form footer {
     tbody tr td {
         font-size: .7rem;
     }
+
+    td .acao .fa-solid {
+        font-size: .9rem;
+    }
 }
