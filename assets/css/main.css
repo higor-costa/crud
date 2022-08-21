@@ -158,5 +158,7 @@ form footer {
 }
 
 @media screen and (max-width: 768px) and (min-width: 593px) {
-    
+    .modal-content {
+        width: 50%;
+    }
 }
