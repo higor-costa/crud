@@ -56,6 +56,11 @@ const salvarFuncionario = () => {
             updateTable()
             fecharModal()
         }
+        else {
+            atualizaFuncionario()
+            updateTable()
+            fecharModal()
+        }
     }
 }
 
