@@ -52,7 +52,6 @@ const salvarFuncionario = () => {
         const index = document.querySelector('#nome').dataset.index
         if (index == 'novo') {
             criarFuncionario(funcionario)
-            limpaCampos()
             updateTable()
             fecharModal()
         }
