@@ -105,6 +105,7 @@ const preencheCampos = (funcionario) => {
 
 const editaFuncionario = (index) => {
     const funcionario = lerFuncionario()[index]
+    funcionario.index = index
     preencheCampos(funcionario)
     abrirModal()
 }
