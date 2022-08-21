@@ -119,7 +119,10 @@ const editaDeleta = (event) => {
         else {
             const funcionario = lerFuncionario()[index]
             const resposta = confirm(`Deletar ${funcionario.nome}?`)
-            const resposta = confirm(`Deletar ${funcionario.nome}?`)
+            if(resposta) {
+                deletaFuncionario(index)
+                updateTable()
+            }
         }
     }
 }
