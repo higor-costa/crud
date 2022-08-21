@@ -116,6 +116,9 @@ const editaDeleta = (event) => {
         if (acao == 'edita') {
             editaFuncionario(index)
         }
+        else {
+            
+        }
     }
 }
 
