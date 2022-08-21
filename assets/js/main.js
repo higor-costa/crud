@@ -117,7 +117,7 @@ const editaDeleta = (event) => {
             editaFuncionario(index)
         }
         else {
-            
+            const funcionario = lerFuncionario()[index]
         }
     }
 }
