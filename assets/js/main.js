@@ -57,7 +57,7 @@ const salvarFuncionario = () => {
             fecharModal()
         }
         else {
-            atualizaFuncionario()
+            atualizaFuncionario(index, funcionario)
             updateTable()
             fecharModal()
         }
