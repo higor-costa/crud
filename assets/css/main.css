@@ -164,5 +164,7 @@ form footer {
 }
 
 @media screen and (max-width: 696px) and (min-width: 632px) {
-    
+    tbody tr td {
+        font-size: .7rem;
+    }
 }
